@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+body {
+	background-color:rgba(48,48,48,1.00);
+}
+
+#wrapper{
+	position:relative;
+	width:960px;
+	height:512px;
+	clip:rect(0px 960px 520px 0px);
+	overflow: hidden;
+	margin:auto auto;
+}
+
+#bg {
+	position:absolute;
+	top:-360px;
+	left:-120px;
+	-webkit-animation-name:'rotCosmos';
+	-webkit-animation-duration:300s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes 'rotCosmos' {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(-360deg);
+	}
+}
+
+#meteor img {
+	position:absolute;
+	top:120px;
+	left:80px;
+	width:15px;
+	height:15px;
+	visibility:hidden;
+	opacity:0.8;
+}
+
+#worldMap{
+	position:absolute;
+	top:0px;
+	margin-left:400px;
+	-webkit-clip-path:circle(180px at 50% 50%);
+}
+
+#cityMap{
+	position:absolute;
+	top:-520px;
+	margin-left:400px;
+	-webkit-clip-path:circle(180px at 50% 50%);
+}
+
+#gOuter {
+	position:absolute;
+	top:0px;
+	left:440px;
+}
+
+#cityDisplay {
+	position:absolute;
+	left:120px;
+	top:100px;
+	width:auto;
+	height:auto;
+}
+
+.cseg {
+	float:left;
+	margin-right:6px;
+	opacity:0.3;
+}
+
+#cityName {
+	position:absolute;
+	left:120px;
+	top:100px;
+	width:auto;
+	height:auto;
+}
+
+.char {
+	float:left;
+	margin-right:6px;
+}
+
+
+#clockDisplay {
+	width:auto;
+	height:91px;
+	position:absolute;
+	top:200px;
+	left:80px;
+	padding:6px 12px 6px 12px;
+	background-color:rgba(126,12,196,0.3);
+	border:outset rgba(126,12,196,0.6) medium;
+	border-radius:12px;
+}
+
+.clock {
+	float:left;
+	padding-left:6px;
+}
+
+#dothm {
+	margin-top:24px;
+}
+
+#sec1 img {
+	margin-top:42px;
+	height:43px;
+	width:25px;
+}
+
+#sec0 img {
+	margin-top:42px;
+	height:43px;
+	width:25px;
+}
+
+#tempDisplay {
+	width:auto;
+	height:auto;
+	position:absolute;
+	top:350px;
+	left:120px;
+	padding:6px 12px 6px 12px;
+	background-color:rgba(106,44,5,0.3);
+	border:outset rgba(106,44,5,0.6) medium;
+	border-radius:12px;
+}
+
+.temp {
+	float:left;
+	padding-left:3px;
+}
+
+.temp img{
+	height:48px;
+	width:27px;
+}
+
+#humidityDisplay {
+	width:auto;
+	height:auto;
+	position:absolute;
+	top:420px;
+	left:120px;
+	padding:6px 12px 6px 12px;
+	background-color:rgba(106,44,5,0.3);
+	border:outset rgba(106,44,5,0.6) medium;
+	border-radius:12px;
+}
+
+.humi {
+	float:left;
+	padding-left:3px;
+}
+
+.humi img{
+	height:48px;
+	width:27px;
+}
+
+#tempIcon img{
+	position:absolute;
+	top:370px;
+	left:60px;
+	height:40px;
+	width:60px;
+}
+
+#humiIcon img{
+	position:absolute;
+	top:450px;
+	left:60px;
+	height:40px;
+	width:60px;
+}
+
+#weather {
+	position:absolute;
+	top:350px;
+	left:280px;
+	height:80px;
+	width:120px;
+	background-color:rgba(255,255,255,0.3);
+	border:outset rgba(255,255,255,0.6) medium;
+	border-radius:40px;
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+
+#weatherIcon {
+	position:absolute;
+	top:342px;
+	left:280px;
+	height:120px;
+	width:120px;
+}
+
+#weatherDesc {
+	position:absolute;
+	top:460px;
+	left:280px;
+	width:120px;
+	height:24px;
+	opacity:1.0;
+}
+
+#weatherDesc p {
+	font-family:cursive, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+}

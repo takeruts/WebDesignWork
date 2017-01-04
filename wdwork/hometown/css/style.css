@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background-image:url(../img/washibgsakura.jpg);
+}
+body {
+	font-family: 'Noto Sans Japanese', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	width:1024px;
+	margin: 0 auto;
+}
+div {
+	float: left;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+/* header */
+
+header {
+	width: 1024px;
+	height:306px;
+}
+
+#hPicture {
+	position: relative;
+	width:1024px;
+	height:306px;
+	top: 0px;
+	left: 0px;
+}
+
+/* Naviation */
+
+nav {
+	position: relative;
+	top:-40px;
+	width: 1024px;
+	height: 0px;
+}
+nav li {
+	position: relative;
+	float: left;
+	width: 256px;
+	height: 36px;
+}
+
+nav h1 {
+	position: relative;
+	color: #A8A8A8;
+	text-align: center;
+	top: 8px;
+	font-size:12pt;
+	height:24px;
+}
+
+/* Main */
+
+main {
+	position: relative;
+	height:640px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+main h1 {
+	color:#FF8E00;
+	font-size: 16pt;
+}
+main h2 {
+	color:#7C0002;
+	font-size: 16pt;
+}
+main h3 {
+	width:200px;
+	color:#FDFFE5;
+	font-size: 14pt;
+	text-align:center;
+	padding-top:12px;
+	padding-bottom:12px;
+}
+main p {
+	color:#454545;
+	font-size: 12pt;
+	width:200px;
+	padding:6px;
+}
+
+/* Main Context */
+
+#maincontext {
+	position:absolute;
+	top:12px;
+	left:12px;
+}
+
+#mainmessage h1 {
+	padding-bottom:12px;
+	color:#AB0002;
+}
+
+#mainmessage h2 {
+	padding-bottom:12px;
+}
+
+#mainmenu {
+	position:absolute;
+	top:96px;
+	width:610px;
+}
+
+#mainmenu h3 {
+	color:#FFDDDE;
+	text-shadow:2px 2px 1px #AB0002;
+}
+
+#mainmenu li {
+	position:relative;
+	float:left;
+	width:200px;
+	background-image:url(../img/menu_groumet.png);
+	background-position:center center;
+	box-shadow: 3px 3px 2px #888888;
+	margin-left:3px;
+}
+
+#mainmenu li:first-child {
+	background-image:url(../img/menu_events.png);
+	background-position:center center;
+	box-shadow: 3px 3px 2px #888888;
+}
+#mainmenu li:last-child {
+	background-image:url(../img/menu_power.png);
+	background-position:center center;
+	box-shadow: 3px 3px 2px #888888;
+}
+
+#maindesc {
+	position:absolute;
+	top:150px;
+	width:610px;
+}
+
+#maindesc p {
+	width:188px;
+	color:#222222;
+	padding-left:6px;
+	padding-right:6px;
+}
+
+#maindesc li {
+	position:relative;
+	float:left;
+	width:200px;
+	margin-left:3px;
+}
+
+/* news */
+
+#news {
+	position:absolute;
+	top:320px;
+	left:36px;
+	width:560px;
+	background-image:url(../img/washibgivory.jpg);
+	padding:12px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+#news h1 {
+	position:relative;
+	width:auto;
+	font-size:16pt;
+	margin-bottom:6px;
+}
+#news h2 {
+	position:relative;
+	display:inline;
+	float:left;
+	width:auto;
+	margin-left:12px;
+	font-size:12pt;
+}
+#news p {
+	position:relative;
+	display:inline;
+	float:left;
+	margin-left:36px;
+	font-size:12pt;
+	width:auto;
+	padding:3px;
+}
+
+/* Map SVG animation */
+
+#instagramLogo {
+	position:absolute;
+	top:240px;
+	left:648px;
+}
+#instagramScroll {
+	position:absolute;
+	top:280px;
+	left:648px;
+}
+
+#twitterLogo {
+	position:absolute;
+	top:378px;
+	left:744px;
+}
+
+#tTimeline {
+	position:absolute;
+	top:372px;
+	left:648px;
+}
+
+#MapLine {
+	position: absolute;
+	float:left;
+	top:12px;
+	left:648px;
+	width: 348px;
+	heigth: 218px;
+	opacity:.0;
+}
+
+.maplineinfo {
+	position: absolute;
+	top: 12px;
+	left: 648px;
+	width: 348px;
+	heigth: 218px;
+	opacity:.0;
+}
+
+#MapLine path {
+	fill: transparent;
+	stroke-width: 2;
+}
+#MapLine path.st0 {
+	stroke: #CDCDCD;
+}
+#MapLine path.st1 {
+	stroke: #E0E0E0;
+}
+#MapLine path.st2 {
+	stroke: #ADE0B7;
+}
+#MapLine path.st3 {
+	stroke: #B8D3E0;
+}
+
+
+
+/* Footer */
+
+footer {
+	position: relative;
+	width: 1024px;
+	padding-bottom:24px;
+	background-color:rgba(104,30,81,0.66);
+}
+footer h2 {
+	position: relative;
+	float: left;
+	left: 24px;
+	padding-right: 24px;
+	color: #dbdbdb;
+}
+footer h3 {
+	position: relative;
+	text-align: center;
+	color: #b8b8b8;
+}
+#tNeko1 {
+	position: absolute;
+	left: 941px;
+	top: 0px;
+	visibility:hidden;
+}
+#tNeko3 {
+	position: absolute;
+	left: 53px;
+	top: 12px;
+	visibility:hidden;
+}

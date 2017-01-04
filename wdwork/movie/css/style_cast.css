@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{background-color:black;}
+
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background:#000000;
+}
+
+a{
+	text-decoration:none;
+}
+
+li{
+	list-style-type:none;
+}
+
+#header {
+	background:#000;
+	position:fixed;
+	width:1000px;
+	z-index:10;
+ }
+
+#header {
+    text-align:left;
+    font-family:impact, sans-serif;
+    color:#fff;
+
+}
+
+#header h1{
+    position:absolute;
+    top:45px;
+    left:175px;
+	padding:0px 12px;
+	font-size:60px;
+	text-shadow:4px 4px #FF0000;
+}
+
+#header p{
+    position:absolute;
+    top:110px;
+    left:180px;
+    padding:0px 24px;
+    color:#fff;
+    font-size:20px;
+}
+
+
+#navi {
+	position:absolute;
+	bottom: 10px;
+	right: 15px;
+}
+
+#navi li {
+	float:left;
+	margin-left:8px;
+}
+
+#navi li a{
+	color:#e8e8e8;
+}
+
+#navi li a:hover {
+	color:#fff;
+}
+
+
+
+#wrapper {
+	width:1000px;
+	height:1500px;
+	background-image:url("../img/casino_table_felt.png");
+}
+
+#roulette-table {
+    position:relative;
+    top:200px;
+    left:40px;
+    float:left;
+    color:#fff;
+    background-image:url("../img/poker-table-felt.jpg");
+}
+
+#roulette-table td {
+	border:3px solid #fff;
+	text-align:center;
+	font-family:impact, sans-serif;
+	font-size:24pt;
+}
+
+#roulette-table .rotate {
+    transform:rotate(90deg);
+}
+
+#roulette-table .zero {
+    padding:10px 15px;
+}
+
+#roulette-table .red {
+	background:rgba(255,0,0,.8);
+	padding:10px 15px;
+}
+
+
+#roulette-table .black {
+	background:rgba(0,0,0,.8);
+}
+#roulette-table .rotate-red {
+    transform:rotate(90deg);
+    /*background:rgba(255,0,0,.8);*/
+}
+
+#roulette-table .rotate-black {
+	transform:rotate(90deg);
+	/*background:rgba(0,0,0,.8);*/
+}
+
+
+/* Cast Chips and Imanges */
+
+#imgHover a .MainImage {
+	position:fixed;
+	top:202px;
+	left:634px;
+}	
+
+/* チップをタッチ */
+#imgHover h1 {
+	position:relative;
+	padding-top:160px;
+	color:white;
+	font-size:18pt;
+}
+/* キャスト 名前 */
+#imgHover h2 {
+	position:fixed;
+	text-align:center;
+	top:380px;
+	left:450px;
+	width:500px;
+	font-size:14pt;
+	color:yellow;
+}
+/* キャスト　説明 */
+#imgHover p {
+	position:fixed;
+	top:415px;
+	left:450px;
+	width:500px;
+	font-size:12pt;
+	color:white;
+}
+
+/* Roulette Wheel */
+#imgHover .roulette-wheel-frame {
+	position:fixed;
+	top:175px;
+	left:607px;
+}
+
+#imgHover .roulette-wheel {
+	position:fixed;
+	top:200px;
+	left:632px;
+	animation: rotate 12s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	-webkit-animation: rotate 12s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+}
+
+@keyframes rotate {
+	0% { transform: rotate(0deg);}
+	100% { transform: rotate(360deg);}
+}
+
+@-webkit-keyframes rotate {
+	0% { -webkit-transform: rotate(0deg);}
+	100% { -webkit-transform: rotate(360deg);}
+}
+
+#imgHover .roulette-ball {
+	position:fixed;
+	top:200px;
+	left:632px;
+	animation: rotate2 8s;
+	animation-iteration-count:infinite;
+	-webkit-animation: rotate2 8s;
+	-webkit-animation-iteration-count:infinite;
+}
+
+@keyframes rotate2 {
+	0% { transform: rotate(0deg);}
+	100% { transform: rotate(-720deg);}
+}
+
+@-webkit-keyframes rotate2 {
+	0% { -webkit-transform: rotate(0deg);}
+	100% { -webkit-transform: rotate(-720deg);}
+}
+
+#imgHover:hover .roulette-wheel {display:none;}
+#imgHover:hover .roulette-ball {display:none;}
+
+
+/* George Clooney */
+#imgHover a .gc_chip {
+	position:absolute;
+	top: 160px;
+	left: 230px;
+}
+#imgHover a .gc_mainImage {display: none;}
+#imgHover a:hover .gc_mainImage {display:block;}
+#imgHover a .gc_desc {display: none;}
+#imgHover a:hover .gc_desc {display:block;}
+
+/* Brad Pitt */
+#imgHover a .bp_chip {
+	position:absolute;
+	top: 300px;
+	left: 150px;
+}
+#imgHover a .bp_mainImage {display: none;}
+#imgHover a:hover .bp_mainImage {display:block;}
+#imgHover a .bp_desc {display: none;}
+#imgHover a:hover .bp_desc {display:block;}
+
+/* Julia Roberts */
+#imgHover a .jr_chip {
+	position:absolute;
+	top: 420px;
+	left: 300px;
+}
+#imgHover a .jr_mainImage {display: none;}
+#imgHover a:hover .jr_mainImage {display:block;}
+#imgHover a .jr_desc {display: none;}
+#imgHover a:hover .jr_desc {display:block;}
+
+/* Matt Damon */
+#imgHover a .md_chip {
+	position:absolute;
+	top: 500px;
+	left: 230px;
+}
+#imgHover a .md_mainImage {display: none;}
+#imgHover a:hover .md_mainImage {display:block;}
+#imgHover a .md_desc {display: none;}
+#imgHover a:hover .md_desc {display:block;}
+
+/* Andy Garcia */
+#imgHover a .ag_chip {
+	position:absolute;
+	top: 650px;
+	left: 150px;
+}
+#imgHover a .ag_mainImage {display: none;}
+#imgHover a:hover .ag_mainImage {display:block;}
+#imgHover a .ag_desc {display: none;}
+#imgHover a:hover .ag_desc {display:block;}
+
+/* Shaobo Qin */
+#imgHover a .sq_chip {
+	position:absolute;
+	top: 720px;
+	left:300px;
+}
+#imgHover a .sq_mainImage {display: none;}
+#imgHover a:hover .sq_mainImage {display:block;}
+#imgHover a .sq_desc {display: none;}
+#imgHover a:hover .sq_desc {display:block;}
+
+/* Don Cheadle */
+#imgHover a .dc_chip {
+	position:absolute;
+	top: 840px;
+	left: 160px;
+}
+#imgHover a .dc_mainImage {display: none;}
+#imgHover a:hover .dc_mainImage {display:block;}
+#imgHover a .dc_desc {display: none;}
+#imgHover a:hover .dc_desc {display:block;}
+
+/* Carl Reiner */
+#imgHover a .cr_chip {
+	position:absolute;
+	top: 900px;
+	left: 300px;
+}
+#imgHover a .cr_mainImage {display: none;}
+#imgHover a:hover .cr_mainImage {display:block;}
+#imgHover a .cr_desc {display: none;}
+#imgHover a:hover .cr_desc {display:block;}
+
+
+#images {
+	position:relative;
+	margin-top:1050px;
+	margin-left:75px;
+}
+
+#images li{
+	width:250px;
+	background:url(../img/intro.png);
+	margin-right:50px;
+	float:left;
+}
+
+#images li:first-child{
+	background:url(../img/home.png);
+}
+
+#images li:last-child{
+	background:url(../img/story.png);
+	margin-right:0;
+}
+
+#images li a{
+	display:block;
+	height:130px;
+	font-family:Impact, sans-serif;
+	font-size:24pt;
+	text-align:center;
+	padding-top:120px;
+	background-color:rgba(0, 0, 0, .5);
+	color:#fff;
+	border-radius: 250px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+}
+
+#images li a:hover{
+	background-color:rgba(0, 0, 0, .1);
+}
+

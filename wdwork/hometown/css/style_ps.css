@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+html {
+    background-image: url(../img/washibgpower.jpg);
+}
+
+body {
+    font-family: 'Noto Sans Japanese', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    width: 1024px;
+	margin:0 auto;
+}
+
+div {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* eye */
+
+#eye {
+    position: fixed;
+    top: 300px;
+    padding-left: 332px;
+    padding-right: 332px;
+    opacity: .3;
+    z-index: 30;
+}
+
+
+/* header */
+
+header {
+    width: 1024px;
+    height: 128px;
+}
+
+#hPicture {
+    position: relative;
+    width: 1024px;
+    height: 128px;
+}
+
+
+/* Naviation */
+
+nav {
+    position: relative;
+    top: -36px;
+    width: 1024px;
+    height: 0px;
+}
+
+nav li {
+    position: relative;
+    float: left;
+    width: 256px;
+    height: 36px;
+}
+
+nav h1 {
+    position: relative;
+    color: #A8A8A8;
+    text-align: center;
+    top: 8px;
+    font-size: 12pt;
+    height: 24px;
+}
+
+
+/* Main */
+
+main {
+    position: relative;
+    height: 1260px;
+    ;
+    padding: 32px;
+}
+
+#timeSelect li {
+    float: left;
+    width: 100px;
+    align-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+/* Map */
+
+#images {
+    position: absolute;
+    top: 200px;
+    padding-left: 44px;
+    padding-right: 44px;
+    visibility: hidden;
+}
+
+#image1 {
+    position: relative;
+    width: 348px;
+    height: 218px;
+    padding-left: 44px;
+    padding-right: 44px;
+    border: none;
+    visibility: hidden;
+}
+
+#image2 {
+    position: relative;
+    width: 348px;
+    height: 218px;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+
+/* Description */
+
+#description {
+    position: absolute;
+    top: 442px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: auto;
+}
+
+#description h1 {
+    font-size: 18pt;
+    color: rgba(0, 64, 140, 1.00);
+    background-image: url(../img/washibgmerble.jpg);
+    background-position: center center;
+    text-align: center;
+    padding: 3px;
+}
+
+#description h2 {
+    font-size: 14pt;
+    color: rgba(0, 64, 140, 1.00);
+    background-color: ivory;
+    background-position: center center;
+    padding: 6px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#description p {
+    font-size: 12pt;
+    color: rgba(0, 0, 0, 1.00);
+    margin-left: 24px;
+    margin-right: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
+/* Footer */
+
+footer {
+    position: relative;
+    width: 1024px;
+    padding-bottom: 24px;
+    background-color: rgba(104, 30, 81, 0.66);
+}
+
+footer h2 {
+    position: relative;
+    float: left;
+    left: 24px;
+    padding-right: 24px;
+    color: #dbdbdb;
+}
+
+footer h3 {
+    position: relative;
+    text-align: center;
+    color: #b8b8b8;
+}
+
+#tNeko1 {
+    position: absolute;
+    left: 941px;
+    top: 0px;
+    visibility: hidden;
+}
+
+#tNeko3 {
+    position: absolute;
+    left: 53px;
+    top: 12px;
+    visibility: hidden;
+}

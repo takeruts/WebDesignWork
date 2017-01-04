@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{background-color:black;}
+
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background:#000000;
+}
+
+a{
+	text-decoration:none;
+}
+
+li{
+	list-style-type:none;
+}
+
+/* Header */
+
+#header {
+	position:fixed;
+	width:1000px;
+	text-align:left;
+	font-family:impact, sans-serif;
+	color:#fff;
+	background:#000;
+	z-index:1;
+}
+
+#header h1{
+	position:absolute;
+	top:45px;
+	left:175px;
+	padding:0px 12px;
+	font-size:60px;
+	text-shadow:4px 4px #FF0000;
+}
+
+#header p{
+	position:absolute;
+	top:110px;
+	left:180px;
+	padding:0px 24px;
+	color:#fff;
+	font-size:20px;
+}
+
+/* Navigation */
+
+#navi{
+	position:absolute;
+	bottom:10px;
+	right: 15px;
+}
+
+#navi li {
+	float:left;
+	margin-left:8px;
+	text-decoration:none;
+}
+
+#navi li a{
+	color:#e8e8e8;
+}
+
+#navi li a:hover {
+	color:#fff;
+}
+
+
+#wrapper {
+	position:relative;
+	top:156px;
+	width:1000px;
+	background:url(../img/bg.png) no-repeat;
+}
+
+#cast{
+	position:relative;
+	top:50px;
+	left:225px;
+	text-align:center;
+	color:#f2f2f2;
+	font-family:'Haettenschweiler', impact, sans-serif;
+}
+
+#givenname{
+	font-size:16pt;
+}
+
+#familyname{
+	font-size:20pt;
+}
+
+#cast td{
+	border:2px solid #4f4f4f;
+	border-top-width:0px;
+	border-bottom-width:0px;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+#message{
+	padding-top:225px;
+	padding-bottom:200px;
+}
+
+#message p{
+	text-align:center;
+	font-family:/*'Bookman Old Style',*/ sans-serif;
+	font-size:24pt;
+	color:#fff;
+	text-shadow:2px 2px 1px #f00, -2px 2px 1px #f00, 2px -2px 1px #f00, -2px -2px 1px #f00;
+	padding-top:10px;
+}
+
+#contents{
+	color:#fff;
+	background:black;
+	line-height:1.5em;
+	font-size:14pt;
+	padding:40px 25px 0;
+}
+
+#images {
+	position:relative;
+	margin-top:50px;
+	margin-left:75px;
+	height:300px;
+	background:#000;
+}
+
+#images li{
+	width:250px;
+	height:250px;
+	margin-right:50px;
+	background:url(../img/story.png);
+	float:left;
+}
+
+#images li:first-child{
+	background:url(../img/intro.png);
+}
+
+#images li:last-child{
+	background:url(../img/cast.png);
+	margin-right:0;
+}
+
+#images li a{
+	display:block;
+	height:130px;
+	font-family:Impact, sans-serif;
+	font-size:24pt;
+	text-align:center;
+	padding-top:120px;
+	background:rgba(0, 0, 0, .5);
+	color:#fff;
+}
+
+#images li a:hover{
+	background:rgba(0, 0, 0, .1);
+}
+
+/* Footer */
+
+#footer{
+	position:relative;
+	width=1000px;
+	margin-top:30px;
+	font-family:'Haettenschweiler', 'Arial Narrow', sans-serif;
+	font-size:16pt;
+	line-height:0.8em;
+	color:#d5d5d5;
+	text-align:center;
+	letter-spacing:-.8px;
+	padding-bottom:60px;
+	background:black;
+}
+
+#footer p{
+	clear:right:
+}
+
+#footer .smallcaps {
+	font-size:66%;
+}
+
+#footer #pg-13 {
+	position:relative;
+	left:100px;
+}
+
+#footer #pg-13 td {
+	color:#d5d5d5;
+	border:2px solid #d5d5d5;
+	padding:1px;
+	font-size:14pt;
+}
+
+#footer .warner-bros-logo {
+	position:relative;
+	top:-60px;
+	left:220px;
+}
+

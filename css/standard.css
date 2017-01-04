@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body {
+    font-family: 'Handlee', cursive;
+    background-color: #eeeeee;
+    background-repeat: no-repeat;
+    width: 1360px;
+    height: 2100px;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    margin-left: 24px;
+    color: darkblue;
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: 48px;
+    font-size: 16px;
+}
+
+h4 {
+    margin-left: 56px;
+}
+
+p {
+    margin-left: 64px;
+    color: dimgray;
+    font-size: 14px;
+}
+
+ul {
+    margin-left: 84px;
+}
+
+address {
+    margin-left: 72px;
+    font-size: 16px;
+}
+
+.duration {
+    font-size: 16px;
+    color: dimgray;
+    margin-left: 24px;
+}
+
+#portrait {
+    display: none;
+}
+
+
+/*
+#contact {
+    position: absolute;
+    left: 800px;
+    top: 72px;
+    width: 300px;
+}
+
+#career {
+    position: absolute;
+    top: 208px;
+    left: 108px;
+    width: 480px;
+}
+
+#skill {
+    position: absolute;
+    top: 208px;
+    left: 756px;
+    width: 480px;
+}
+
+#education {
+    position: absolute;
+    top: 1012px;
+    left: 756px;
+    width: 480px;
+}
+
+#certification {
+    position: absolute;
+    top: 1352px;
+    left: 756px;
+    width: 480px;
+}
+*/
